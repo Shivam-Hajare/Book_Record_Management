@@ -1,0 +1,57 @@
+.navbar{
+    width: 100%;
+    padding: 13px;
+    background-color: black;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    color: white;
+    text-decoration: none;
+}
+
+.nav_right_Side{
+    display: flex;
+    gap: 1rem;
+}
+.nav_list{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    margin-left: auto;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    color: red;
+}
+.nav_form{
+    display: flex;
+    gap: 0.5rem;
+}
+.nav_search{
+    border: none;
+    border-radius: 8px;
+    padding: 3px;
+    outline: none;
+}
+.nav_search_btn{
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+.nav_search_btn:hover{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+
+}

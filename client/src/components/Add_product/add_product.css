@@ -1,0 +1,47 @@
+.addProduct_container{
+    width: 100%;
+    margin-top: 70px;
+
+}
+.addproduct_card{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.sideImg{
+    width: 350px;
+}
+.addProductForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.eachInput_form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    gap: 0.5rem;
+}
+.eachInput_form input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 35px;
+}
+.eachInput_form input:hover{
+    border: 2px solid blue;
+}
+.form_btn{
+    background-color: rgb(100, 100, 216);
+    color: white;
+    font-weight: 700;
+}
+.form_btn:hover{
+    color: rgb(100, 100, 216);
+    background-color: white;
+    font-weight: 700;
+}

@@ -1,0 +1,25 @@
+.home_banner {
+    margin-bottom: 100px;
+    background-image: url("../../img/Home.jpeg");
+    background-repeat: no-repeat;
+    height: 590px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bookites {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1_home {
+    color: white;
+    font-family: 'Caveat', cursive;
+    width: 50%;
+    font-size: 70px;
+}
